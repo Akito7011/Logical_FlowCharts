@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" modified="2024-06-25T13:01:07.107Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="pNSPjlT3EXS87z_3ydxj" version="24.6.2" type="github">
+  <diagram name="Page-1" id="CcXyHM6vt8Zze5Mipux-">
+    <mxGraphModel dx="1050" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cCLXFGkXkXxG9YlqaJ5n-1" value="Computer" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;fontSize=22;" parent="1" vertex="1">
+          <mxGeometry x="40" y="110" width="110" height="149.08" as="geometry" />
+        </mxCell>
+        <mxCell id="cCLXFGkXkXxG9YlqaJ5n-4" value="MainFrame" style="fontColor=#000000;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.mainframe;fontSize=22;" parent="1" vertex="1">
+          <mxGeometry x="30" y="440" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="cCLXFGkXkXxG9YlqaJ5n-6" value="Internet" style="image;html=1;image=img/lib/clip_art/networking/Cloud_Computer_128x128.png;fontSize=22;" parent="1" vertex="1">
+          <mxGeometry x="600" y="40" width="190" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="cCLXFGkXkXxG9YlqaJ5n-9" value="Laptop" style="fontColor=#000000;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.laptop;fontSize=22;" parent="1" vertex="1">
+          <mxGeometry x="340" y="40" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="cCLXFGkXkXxG9YlqaJ5n-11" value="AnomalyDetection System" style="fontColor=#000000;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.nas_filer;fontSize=22;" parent="1" vertex="1">
+          <mxGeometry x="320" y="400" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cCLXFGkXkXxG9YlqaJ5n-12" value="Testing Server" style="fontColor=#000000;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.virtual_server;fontSize=22;" parent="1" vertex="1">
+          <mxGeometry x="620" y="390" width="110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cCLXFGkXkXxG9YlqaJ5n-14" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;startWidth=10;startSize=5.38;endWidth=10;endSize=5.38;" parent="1" target="cCLXFGkXkXxG9YlqaJ5n-11" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="150" y="190" as="sourcePoint" />
+            <mxPoint x="361.20000000000005" y="339.4" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cCLXFGkXkXxG9YlqaJ5n-15" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;startWidth=12;startSize=4.61;endWidth=12;endSize=4.61;" parent="1" source="cCLXFGkXkXxG9YlqaJ5n-9" target="cCLXFGkXkXxG9YlqaJ5n-11" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="370" y="95" as="sourcePoint" />
+            <mxPoint x="570" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cCLXFGkXkXxG9YlqaJ5n-16" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.006;entryY=0.561;entryDx=0;entryDy=0;entryPerimeter=0;endWidth=8;endSize=5.16;startWidth=8;startSize=5.16;" parent="1" source="cCLXFGkXkXxG9YlqaJ5n-11" target="cCLXFGkXkXxG9YlqaJ5n-6" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="430" y="110" as="sourcePoint" />
+            <mxPoint x="630" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cCLXFGkXkXxG9YlqaJ5n-17" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;endWidth=8;endSize=5.93;" parent="1" source="cCLXFGkXkXxG9YlqaJ5n-11" target="cCLXFGkXkXxG9YlqaJ5n-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="430" as="sourcePoint" />
+            <mxPoint x="500" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cCLXFGkXkXxG9YlqaJ5n-18" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.05;exitDx=0;exitDy=0;exitPerimeter=0;width=7;startSize=3.67;endWidth=9;endSize=3.67;" parent="1" source="cCLXFGkXkXxG9YlqaJ5n-4" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="290" y="550" as="sourcePoint" />
+            <mxPoint x="390" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
